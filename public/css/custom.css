@@ -1,0 +1,154 @@
+body {
+	background: #e3e4e8 url(../img/login-bg.jpg) no-repeat fixed;
+	top: 0; 
+  	left: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight:300;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+.hr-reg-interest {
+	display: block;
+	width: 100%;
+	height: 1px;
+	border: 0;
+	border-top: 2px solid #fff;
+	margin-bottom:45px;
+	opacity:0.4;
+}
+
+
+.reg-interest {
+	margin:auto;
+	max-width: 826px;
+	text-align: center;
+}
+
+#reg-interest-side-header h1 {
+	margin-top: 25px;
+}
+
+#reg-interest-side-header h4 {
+	opacity: 0.7;	
+}
+
+#reg-interest-side-header img {
+	width: 100%;
+	max-width: 200px;	
+}
+
+
+.reg-interest-form {
+	padding: 0 127px 60px;
+	margin: 0 auto;
+}
+
+.reg-interest-form h5{
+	margin-bottom: 15px;
+}
+
+/*#logo-dark {
+	padding-right: 10px;
+	width: 100%;
+	max-width: 255px;
+}*/
+
+
+.reg-interest-form .reg-interest-form-heading,
+.reg-interest-form .checkbox {
+	margin-bottom: 30px;
+}
+.reg-interest-form .checkbox {
+	font-weight: normal;
+}
+.reg-interest-form .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	padding: 18px 40px;
+	font-size: 14px;
+}
+.reg-interest-form .form-control:focus {
+	z-index: 2;
+}
+.reg-interest-form input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.reg-interest-form input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#input-email {
+	background-image: url(../img/email.png);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	width:73%;
+	display:inline;
+}
+
+#input-password{
+	background-image: url(../img/password.png);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+}
+
+.reg-interest-btn, 
+.reg-interest-btn:hover,
+.reg-interest-btn:focus,
+.reg-interest-btn:active {
+	background-color: #f27e00;
+	border: none;
+	height: 58px;
+	font-size: 15px;
+	margin-left:10px;
+}
+
+.features h5 {
+	line-height: 1.5;	
+}
+
+.fa-reg {
+	display: block!important;
+	font-size: 42px!important;	
+}
+
+@media screen and (max-width: 991px) {
+	
+#input-email {
+	width:66%;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+.reg-interest-form {
+	padding: 0 14px 60px;
+}
+	
+#input-email {
+	width:90%;
+}
+
+.reg-interest-btn, 
+.reg-interest-btn:hover,
+.reg-interest-btn:focus,
+.reg-interest-btn:active {
+	width: 90%;
+	margin: 15px 0 0 0;
+}
+
+}
