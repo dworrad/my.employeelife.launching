@@ -20,10 +20,9 @@ pagesController.postemail = function () {
     }
 
     MELRegisterInterest.create(email, function(err, ri){
-        controller.res.send(200)
+        controller.redirect('/thankyou')
     })
 
-    controller.redirect('/thankyou')
 }
 
 module.exports = pagesController;
